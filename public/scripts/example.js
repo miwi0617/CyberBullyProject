@@ -84,7 +84,8 @@ var CommentForm = React.createClass({
 
         <p> Is there any cyerbullying in the online post?</p>
         <p>Mark yes if there are negative words and or comment with intent to harm someone or other, and the posts include two or more repeated negativity against a victim that cannot easily defend him or herself </p>
-        <input type="text" placeholder="answer yes/no" ref="answer2" />
+        <input type="radio" name='answer' value='yes' ref="answer2"/>Yes<br/>
+        <input type="radio" name='answer' value='no' ref="answer2"/>No<br/>
         <input type="submit" value="Post" />
       </form>
     );
@@ -107,10 +108,6 @@ var Comment = React.createClass({
   }
 });
 
-var data = [
-  {author: "John Hunt", text: "This is one comment"},
-  {author: "Jordan Walke", text: "This is *another* comment"}
-];
 
 
 React.render(

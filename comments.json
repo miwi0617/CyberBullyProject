@@ -10,5 +10,17 @@
     {
         "answer1": "yes",
         "answer2": "yes"
+    },
+    {
+        "answer1": "yes",
+        "answer2": "no"
+    },
+    {
+        "answer1": "no",
+        "answer2": "no"
+    },
+    {
+        "answer1": "yes",
+        "answer2": "no"
     }
 ]
