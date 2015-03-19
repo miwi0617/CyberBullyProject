@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    h1= note.content
+    each m in note.medias
+        - // compute a url to an automatically resized image (by Cloudinary)
+        - var url = m.link.replace('upload/','upload/w_500,c_fit/')
+        img(src=url, width="500")
