@@ -5,10 +5,8 @@ var _ = require('lodash')
 
 
 app.data = {}
-app.data.notes = require('./data/notes.json').data
 app.data.bully = require('./data/bully.json').data
-app.data.accounts = require('./data/accounts.json').data
-app.data.contexts = require('./data/contexts.json').data
+
 
 // use jade as the view engine
 app.set('view engine', 'jade')
