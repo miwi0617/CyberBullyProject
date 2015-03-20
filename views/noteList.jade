@@ -1,15 +1,21 @@
 extends layout.jade
 
-block content
-             
+block content             
 
     each item in bully
         div.row
                 div.two.columns                
-                    item.profile_owner_id                
-                div.two.columns            
+
+                div.four.columns
                     a(href='/note/view/' + item.profile_owner_id)
-                        =  item.profile_owner_id                
+                        = item.profile_owner_id
+                div.two.columns            
+                    a(href='/account/view/' + item.profile_owner_id)
+                        = item.profile_owner_id               
+                div.two.columns                
+                    = item.profile_owner_id                    
+
+
                           
 
    
