@@ -17,7 +17,7 @@ block content
                       span.ss-required-asterisk(aria-hidden='true')
                     .ss-q-help.ss-secondary-text(dir='ltr')
                   ul.ss-choices(role='radiogroup', aria-label='Is there any cyberaggressive behavior in the online posts? Mark yes if there is at least one negative word/comment and or content with intent to harm someone or others.  ')
-                    li.ss-choice-item
+                    li
                       label
                         span.ss-choice-item-control.goog-inline-block
                           input#group_497360939_1.ss-q-radio(type='radio', name='entry.497360939', value='Yes', role='radio', aria-label='Yes', required='', aria-required='true')
